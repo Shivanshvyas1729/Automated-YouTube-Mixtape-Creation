@@ -23,6 +23,10 @@ if st.button("Upload tracks"):
     for f in uploaded:
         files = {"file": (f.name, f.getvalue())}
         data = {"job_prefix": job_prefix}
+    #       files = {
+    #       field_name: (filename, file_object)
+#                   }
+        
         r = requests.post(f"{API_BASE}/upload-track/", files=files, data=data)
         st.write(r.json())
 

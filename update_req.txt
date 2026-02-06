@@ -1,0 +1,7 @@
+youtube automation update
+
+1.descripition timeline problem
+
+2. output saving at same file for mix tape audio and video and path is hardcoded 
+
+3.normalization req.
